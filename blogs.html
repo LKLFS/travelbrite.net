@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width", initial-scale=1.0">
+	<title>Travel Brite</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/6582cdab31.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" type="x-icon" href="images/planeb.png">
+</head> 
+<body> 
+
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/TB.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="tour-packages.html">TOUR PACKAGES</a></li>
+					<li><a href="blogs.html">BLOGS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	
+		<h1>Our Clients & Sucess Stories</h1>
+
+
+	</section>
+
+<!-------------------blog page content----------->
+
+<section class="blog-content">
+
+	<div class="row">
+		<div class="blog-left">
+			<img src="images/certificate.jpg">
+			<h2>Our Certificate & Events For 2022</h2>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam exercitationem ad expedita quidem maiores adipisci nobis tenetur? Esse repellendus odio distinctio rem quos voluptas quod veritatis molestias vitae iste.</p>
+			<br>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt molestiae sequi recusandae, vitae harum praesentium dolor iste doloremque iure quae obcaecati consequuntur, placeat aliquid. Voluptate pariatur accusamus quam ullam nisi.</p>
+			<br>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia fugit similique error. Velit alias modi porro sint possimus ratione voluptatibus, quasi accusamus quisquam, at minima rem error, cum deserunt adipisci.</p>
+			<br>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore autem tempora facere, harum iste quis ad vero officia unde culpa quam cupiditate neque eum molestias distinctio et expedita, nulla libero.</p>
+
+			<div class="comment-box">
+
+				<h3>Leave a comment</h3>
+				<form class="comment-form">
+					<input type="text" placeholder="Enter Name">
+					<input type="email" placeholder="Enter Email">
+					<textarea rows="5" placeholder="Your Comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST 
+					COMMENT</button>
+				</form>
+			</div>
+
+
+
+
+		</div>
+		<div class="blog-right">
+			<h3>Post Categories</h3>
+			<div>
+				<span>Business Analytics</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>Data Science</span>
+				<span>31</span>	
+			</div>
+			<div>
+				<span>Computer Science</span>
+				<span>61</span>	
+			</div>
+			<div>
+				<span>AutoCAD</span>
+				<span>18</span>	
+			</div>
+			<div>
+				<span>Journalism</span>
+				<span>78</span>	
+			</div>			
+			<div>
+				<span>Commerce</span>
+				<span>32</span>	
+			</div>	
+		</div>
+	</div>
+</section>
+
+<!------Footer------>
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+		Aspernatur aut eaque<br>cum nulla eos sit facilis nesciunt eveniet quam, 
+		vel blanditiis non nemo! Harum pariatur unde facere atque soluta ipsa.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Copywrite reserved by Travel Bright 2022</p>
+</section>
+
+<!-----about us content----->
+
+<!------JavaScript for Toggle Menu-------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+		
+
+	</script>
+
+</body>
+</html>
